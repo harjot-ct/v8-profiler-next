@@ -8,7 +8,7 @@
     "module_path": "./build/binding/{configuration}/{node_abi}-{platform}-{arch}/",
     "remote_path": "./v{version}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://github.com/hyj1991/v8-profiler-next/releases/download"
+    "host": "https://github.com/harjot-ct/v8-profiler-next/releases/download"
   },
   "scripts": {
     "install": "node scripts/install.js",
@@ -33,10 +33,7 @@
     "type": "git",
     "url": "git+https://github.com/hyj1991/v8-profiler-next.git"
   },
-  "keywords": [
-    "node",
-    "v8-profiler"
-  ],
+  "keywords": ["node", "v8-profiler"],
   "author": "https://github.com/hyj1991",
   "license": "MIT",
   "bugs": {
